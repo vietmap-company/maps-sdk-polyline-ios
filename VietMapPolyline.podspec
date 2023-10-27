@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VietMapPolyline"
-  s.version      = "1.0.2"
+  s.version      = "1.0.4"
   s.summary      = "VietMap Directions API wrapper for Swift and Objective-C."
   s.homepage          = 'https://github.com/vietmap-company'
   s.documentation_url = "https://maps.vietmap.vn/docs/sdk-mobile/sdk-ios/sdk-ios-ver2.0/"
 
-  s.license      = { :type => "MIT", :file => "MIT License" }
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
   s.author            = { 'NhatPV' => 'nhatpv@vietmap.vn' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
+  s.platform          = :ios
   s.ios.deployment_target = "12.0"
   # s.osx.deployment_target = "10.10"
   # s.watchos.deployment_target = "2.0"
@@ -92,7 +93,7 @@ Pod::Spec.new do |s|
   #  you can include multiple dependencies to ensure it works.
 
   s.requires_arc = true
-
+  s.swift_version = "4.0"
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
