@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91F7832B1CE4EB7E004E87E3"
-               BuildableName = "Polyline.framework"
-               BlueprintName = "PolylineMac"
-               ReferencedContainer = "container:Polyline.xcodeproj">
+               BuildableName = "VietMapPolyline.framework"
+               BlueprintName = "VietMapPolylineMac"
+               ReferencedContainer = "container:VietMapPolyline.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,29 +27,27 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "91F7832B1CE4EB7E004E87E3"
+            BuildableName = "VietMapPolyline.framework"
+            BlueprintName = "VietMapPolylineMac"
+            ReferencedContainer = "container:VietMapPolyline.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "91F783341CE4EB7E004E87E3"
-               BuildableName = "PolylineTests.xctest"
-               BlueprintName = "PolylineMacTests"
-               ReferencedContainer = "container:Polyline.xcodeproj">
+               BuildableName = "VietMapPolylineTests.xctest"
+               BlueprintName = "VietMapPolylineMacTests"
+               ReferencedContainer = "container:VietMapPolyline.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "91F7832B1CE4EB7E004E87E3"
-            BuildableName = "Polyline.framework"
-            BlueprintName = "PolylineMac"
-            ReferencedContainer = "container:Polyline.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -65,13 +63,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91F7832B1CE4EB7E004E87E3"
-            BuildableName = "Polyline.framework"
-            BlueprintName = "PolylineMac"
-            ReferencedContainer = "container:Polyline.xcodeproj">
+            BuildableName = "VietMapPolyline.framework"
+            BlueprintName = "VietMapPolylineMac"
+            ReferencedContainer = "container:VietMapPolyline.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -83,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "91F7832B1CE4EB7E004E87E3"
-            BuildableName = "Polyline.framework"
-            BlueprintName = "PolylineMac"
-            ReferencedContainer = "container:Polyline.xcodeproj">
+            BuildableName = "VietMapPolyline.framework"
+            BlueprintName = "VietMapPolylineMac"
+            ReferencedContainer = "container:VietMapPolyline.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
