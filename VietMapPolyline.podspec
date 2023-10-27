@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VietMapPolyline"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "VietMap Directions API wrapper for Swift and Objective-C."
   s.homepage          = 'https://github.com/vietmap-company'
   s.documentation_url = "https://maps.vietmap.vn/docs/sdk-mobile/sdk-ios/sdk-ios-ver2.0/"
