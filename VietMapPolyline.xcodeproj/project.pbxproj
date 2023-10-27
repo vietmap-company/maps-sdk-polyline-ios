@@ -714,7 +714,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = "";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
