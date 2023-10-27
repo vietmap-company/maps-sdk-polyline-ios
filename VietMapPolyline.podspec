@@ -15,43 +15,14 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "Polyline"
-  s.version      = "4.2.1"
-  s.summary      = "Polyline encoder / decoder in swift"
+  s.name         = "VietMapPolyline"
+  s.version      = "1.0.2"
+  s.summary      = "VietMap Directions API wrapper for Swift and Objective-C."
+  s.homepage          = 'https://github.com/vietmap-company'
+  s.documentation_url = "https://maps.vietmap.vn/docs/sdk-mobile/sdk-ios/sdk-ios-ver2.0/"
 
-  s.description  = <<-DESC
-                   A Google Polyline encoder / decoder in swift
-                   * Encodes Polyline from [CLLocation] or from [CLLocationCoordinate2D]
-                   * Decodes Polyline to [CLLocation] or to [CLLocationCoordinate2D]
-                   * Encodes/Decodes associated levels
-                   DESC
-
-  s.homepage     = "https://github.com/raphaelmor/Polyline"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
-  s.author             = { "Raphaël Mor" => "raphael.mor@gmail.com" }
-  s.social_media_url   = "http://twitter.com/raphaelmor"
+  s.license      = { :type => "MIT", :file => "MIT License" }
+  s.author            = { 'NhatPV' => 'nhatpv@vietmap.vn' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -60,9 +31,9 @@ Pod::Spec.new do |s|
   #
 
   s.ios.deployment_target = "12.0"
-  s.osx.deployment_target = "10.10"
-  s.watchos.deployment_target = "2.0"
-  s.tvos.deployment_target = "9.0"
+  # s.osx.deployment_target = "10.10"
+  # s.watchos.deployment_target = "2.0"
+  # s.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -71,7 +42,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/raphaelmor/Polyline.git", :tag => "v#{s.version.to_s}" }
+  s.source       = { :git => "https://github.com/vietmap-company/maps-sdk-polyline-ios.git", :tag => "#{s.version.to_s}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
